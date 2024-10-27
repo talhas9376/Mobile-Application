@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:talha_new/currency_converter.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-  return MaterialApp(home: CurrencyConverter(),);
+  return const MaterialApp(home: CurrencyConverter(),);
   
   }
 }
